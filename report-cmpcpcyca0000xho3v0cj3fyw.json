@@ -1,0 +1,688 @@
+{
+  "targetUrl": "https://joinsuperset.com/",
+  "generatedAt": "2026-05-19T14:03:18.666Z",
+  "businessProfile": {
+    "domain": "joinsuperset.com",
+    "title": "Superset | Automate Campus Placement and Campus Recruitment",
+    "description": "Superset’s virtual campus placement and campus hiring software enables colleges to automate campus placements, helps employers hire young talent",
+    "h1": "Where Talent Meets Opportunity",
+    "h2s": [
+      "End-to-end virtual campus hiring",
+      "Digitise & automate placements online",
+      "Learn, prepare & apply to jobs",
+      "Why colleges love Superset"
+    ],
+    "pagesCrawled": 10
+  },
+  "serpQueries": [
+    "Where Talent Meets Opportunity software",
+    "Where Talent Meets Opportunity alternatives",
+    "best Where Talent Meets Opportunity",
+    "Where Talent Meets Opportunity competitors",
+    "Where Talent Meets Opportunity pricing",
+    "top Superset’s virtual campus placement and tools",
+    "Where Talent Meets Opportunity vs",
+    "joinsuperset alternative"
+  ],
+  "competitors": [],
+  "keywords": {
+    "totalCandidates": 500,
+    "top50": [
+      {
+        "rank": 1,
+        "keyword": "campus",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "to recruit faster,\nand helps colleges streamline campus placements\n\n\nGet Started\n27,00,000+\nStudents and Young Alumni\n600+\nCollege Placement Cells\n12"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 197 times across crawled pages"
+      },
+      {
+        "rank": 2,
+        "keyword": "superset",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "Where Talent\nMeets Opportunity\n\nSuperset helps fresh graduates get their first jobs,\nenables employers to recruit faster,\nand helps"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 93 times across crawled pages"
+      },
+      {
+        "rank": 3,
+        "keyword": "hiring",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "+\nEmployers\n\n\nEMPLOYERS\nEnd-to-end virtual campus hiring\n\nComplete automation, right from - outreach to 24,000 campuses, engagement, assessments, virt"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 70 times across crawled pages"
+      },
+      {
+        "rank": 4,
+        "keyword": "campus hiring",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "12,800+\nEmployers\n\n\nEMPLOYERS\nEnd-to-end virtual campus hiring\n\nComplete automation, right from - outreach to 24,000 campuses, engagement, assessment"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 70 times across crawled pages"
+      },
+      {
+        "rank": 5,
+        "keyword": "recruitment",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "Recruitment Management System and Automation Software by Superset\n\nSchedule a demo now to know more"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 67 times across crawled pages"
+      },
+      {
+        "rank": 6,
+        "keyword": "placement",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "ruit faster,\nand helps colleges streamline campus placements\n\n\nGet Started\n27,00,000+\nStudents and Young Alumni\n600+\nCollege Placement Cells\n12,800+\nE"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 65 times across crawled pages"
+      },
+      {
+        "rank": 7,
+        "keyword": "software",
+        "intent": "COMMERCIAL",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "Recruitment Management System and Automation Software by Superset\n\nSchedule a demo now to know more\n\n\n\n\n\n\nShare your contact details below. We’ll"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 52 times across crawled pages"
+      },
+      {
+        "rank": 8,
+        "keyword": "automation",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "LOYERS\nEnd-to-end virtual campus hiring\n\nComplete automation, right from - outreach to 24,000 campuses, engagement, assessments, virtual interviews to"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 48 times across crawled pages"
+      },
+      {
+        "rank": 9,
+        "keyword": "million",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "in your campus game.\nGet Started Watch Video  \n30 Million\nGraduates\n24,000\nCampuses\n8,200+\nSMBs\n400+\nEnterprises\n12 Million\nAssessments YoY\n3 Million"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 45 times across crawled pages"
+      },
+      {
+        "rank": 10,
+        "keyword": "virtual",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "nt Cells\n12,800+\nEmployers\n\n\nEMPLOYERS\nEnd-to-end virtual campus hiring\n\nComplete automation, right from - outreach to 24,000 campuses, engagement, as"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 44 times across crawled pages"
+      },
+      {
+        "rank": 11,
+        "keyword": "assessments",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "t from - outreach to 24,000 campuses, engagement, assessments, virtual interviews to industry benchmarking and analytics.\n\nFor Employers\nUNIVERSITIES"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 37 times across crawled pages"
+      },
+      {
+        "rank": 12,
+        "keyword": "automation software",
+        "intent": "COMMERCIAL",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "Recruitment Management System and Automation Software by Superset\n\nSchedule a demo now to know more\n\n\n\n\n\n\nShare your contact details b"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 37 times across crawled pages"
+      },
+      {
+        "rank": 13,
+        "keyword": "colleges",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "s,\nenables employers to recruit faster,\nand helps colleges streamline campus placements\n\n\nGet Started\n27,00,000+\nStudents and Young Alumni\n600+\nColleg"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 34 times across crawled pages"
+      },
+      {
+        "rank": 14,
+        "keyword": "campus placement",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "to recruit faster,\nand helps colleges streamline campus placements\n\n\nGet Started\n27,00,000+\nStudents and Young Alumni\n600+\nCollege Placement Cells\n12"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 34 times across crawled pages"
+      },
+      {
+        "rank": 15,
+        "keyword": "automate",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "analytics.\n\nFor Employers\nUNIVERSITIES\nDigitise & automate placements online\n\nEffortlessly streamline your campus placement process by accessing the l"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 31 times across crawled pages"
+      },
+      {
+        "rank": 16,
+        "keyword": "end",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "ege Placement Cells\n12,800+\nEmployers\n\n\nEMPLOYERS\nEnd-to-end virtual campus hiring\n\nComplete automation, right from - outreach to 24,000 campuses, eng"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 30 times across crawled pages"
+      },
+      {
+        "rank": 17,
+        "keyword": "ats",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "u covered - right from branding, outreach, campus ATS, to assessments, interview automation and governance. All you need to win your campus game.\nGet"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 30 times across crawled pages"
+      },
+      {
+        "rank": 18,
+        "keyword": "outreach",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "campus hiring\n\nComplete automation, right from - outreach to 24,000 campuses, engagement, assessments, virtual interviews to industry benchmarking an"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 29 times across crawled pages"
+      },
+      {
+        "rank": 19,
+        "keyword": "placements",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "ruit faster,\nand helps colleges streamline campus placements\n\n\nGet Started\n27,00,000+\nStudents and Young Alumni\n600+\nCollege Placement Cells\n12,800+\nE"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 28 times across crawled pages"
+      },
+      {
+        "rank": 20,
+        "keyword": "campus recruitment",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": ""
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 27 times across crawled pages"
+      },
+      {
+        "rank": 21,
+        "keyword": "india",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "cial campus placement portal for 600+ colleges in India.\n\nBITS Pilani\nIIM Ahmedabad\nIIM Calcutta\nVNIT, Nagpur\nSRM University\nNMIMS\nSP Jain\nBML\nAshoka"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 26 times across crawled pages"
+      },
+      {
+        "rank": 22,
+        "keyword": "interview",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "m branding, outreach, campus ATS, to assessments, interview automation and governance. All you need to win your campus game.\nGet Started Watch Video"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 26 times across crawled pages"
+      },
+      {
+        "rank": 23,
+        "keyword": "online",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "oyers\nUNIVERSITIES\nDigitise & automate placements online\n\nEffortlessly streamline your campus placement process by accessing the latest job openings,"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 25 times across crawled pages"
+      },
+      {
+        "rank": 24,
+        "keyword": "talent",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "Where Talent\nMeets Opportunity\n\nSuperset helps fresh graduates get their first jobs,\nenables employers to"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 24 times across crawled pages"
+      },
+      {
+        "rank": 25,
+        "keyword": "000",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "streamline campus placements\n\n\nGet Started\n27,00,000+\nStudents and Young Alumni\n600+\nCollege Placement Cells\n12,800+\nEmployers\n\n\nEMPLOYERS\nEnd-to-end"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 24 times across crawled pages"
+      },
+      {
+        "rank": 26,
+        "keyword": "process",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "ne\n\nEffortlessly streamline your campus placement process by accessing the latest job openings, managing student data, and securing interviews, all wi"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 24 times across crawled pages"
+      },
+      {
+        "rank": 27,
+        "keyword": "helps",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "Where Talent\nMeets Opportunity\n\nSuperset helps fresh graduates get their first jobs,\nenables employers to recruit faster,\nand helps colleges"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 22 times across crawled pages"
+      },
+      {
+        "rank": 28,
+        "keyword": "software superset",
+        "intent": "COMMERCIAL",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": ""
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 22 times across crawled pages"
+      },
+      {
+        "rank": 29,
+        "keyword": "employers",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "lps fresh graduates get their first jobs,\nenables employers to recruit faster,\nand helps colleges streamline campus placements\n\n\nGet Started\n27,00,000"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 21 times across crawled pages"
+      },
+      {
+        "rank": 30,
+        "keyword": "recruitment automation",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": ""
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 21 times across crawled pages"
+      },
+      {
+        "rank": 31,
+        "keyword": "largest",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "India's Largest\nCampus Hiring Platform\nWe've got you covered - right from branding, outreach, campus ATS, to"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 32,
+        "keyword": "platform",
+        "intent": "COMMERCIAL",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "India's Largest\nCampus Hiring Platform\nWe've got you covered - right from branding, outreach, campus ATS, to assessments, intervie"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 33,
+        "keyword": "integrate",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "Campus ATS\nand Registration Portal\n\nAssessments\n[integrated with all vendors]\n\n\n\nDriveX TM Virtual Drive Manager\n\nInstant Live Video\nInterviews\n\nBulk"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 34,
+        "keyword": "tailored",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "e\nOutreach\n\t\n2. Branding &\nEngagement\n\t\n3. Campus Tailored\nATS\n\t\n4. Integrate\nAssessments\n\t\n5. Virtual Interview Drives\n\t\n6. Offers &\nDocument Uploads"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 35,
+        "keyword": "drives",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "4. Integrate\nAssessments\n\t\n5. Virtual Interview Drives\n\t\n6. Offers &\nDocument Uploads\nOne-click outreach + job-post to placement cells\n\n\n\nUpload you"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 36,
+        "keyword": "india largest",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": ""
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 37,
+        "keyword": "largest campus",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": ""
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 38,
+        "keyword": "hiring platform",
+        "intent": "COMMERCIAL",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "India's Largest\nCampus Hiring Platform\nWe've got you covered - right from branding, outreach, campus ATS, to assessments, i"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 39,
+        "keyword": "integrate assessments",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": ""
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 40,
+        "keyword": "campus tailored",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "Automate\nOutreach\n\t\n2. Branding &\nEngagement\n\t\n3. Campus Tailored\nATS\n\t\n4. Integrate\nAssessments\n\t\n5. Virtual Interview Drives\n\t\n6. Offers &\nDocument"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 41,
+        "keyword": "tailored ats",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": ""
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 42,
+        "keyword": "virtual interview",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "mpus Tailored\nATS\n\t\n4. Integrate\nAssessments\n\t\n5. Virtual Interview Drives\n\t\n6. Offers &\nDocument Uploads\nOne-click outreach + job-post to placement c"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 43,
+        "keyword": "interview drives",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": "lored\nATS\n\t\n4. Integrate\nAssessments\n\t\n5. Virtual Interview Drives\n\t\n6. Offers &\nDocument Uploads\nOne-click outreach + job-post to placement cells"
+        },
+        "relevanceScore": 1,
+        "opportunityScore": 100,
+        "opportunityNote": "Appears 20 times across crawled pages"
+      },
+      {
+        "rank": 44,
+        "keyword": "processes",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": ""
+        },
+        "relevanceScore": 0.9,
+        "opportunityScore": 90,
+        "opportunityNote": "Appears 18 times across crawled pages"
+      },
+      {
+        "rank": 45,
+        "keyword": "and recruitment",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/employer.html",
+          "snippet": ""
+        },
+        "relevanceScore": 0.9,
+        "opportunityScore": 90,
+        "opportunityNote": "Appears 18 times across crawled pages"
+      },
+      {
+        "rank": 46,
+        "keyword": "jobs",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "y\n\nSuperset helps fresh graduates get their first jobs,\nenables employers to recruit faster,\nand helps colleges streamline campus placements\n\n\nGet Sta"
+        },
+        "relevanceScore": 0.85,
+        "opportunityScore": 85,
+        "opportunityNote": "Appears 17 times across crawled pages"
+      },
+      {
+        "rank": 47,
+        "keyword": "virtual campus",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "nt Cells\n12,800+\nEmployers\n\n\nEMPLOYERS\nEnd-to-end virtual campus hiring\n\nComplete automation, right from - outreach to 24,000 campuses, engagement, as"
+        },
+        "relevanceScore": 0.85,
+        "opportunityScore": 85,
+        "opportunityNote": "Appears 17 times across crawled pages"
+      },
+      {
+        "rank": 48,
+        "keyword": "portal",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "nts\n\n\nUNIVERSITIES\n\nThe official campus placement portal for 600+ colleges in India.\n\nBITS Pilani\nIIM Ahmedabad\nIIM Calcutta\nVNIT, Nagpur\nSRM Universi"
+        },
+        "relevanceScore": 0.85,
+        "opportunityScore": 85,
+        "opportunityNote": "Appears 17 times across crawled pages"
+      },
+      {
+        "rank": 49,
+        "keyword": "your campus",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "tomate placements online\n\nEffortlessly streamline your campus placement process by accessing the latest job openings, managing student data, and secur"
+        },
+        "relevanceScore": 0.85,
+        "opportunityScore": 85,
+        "opportunityNote": "Appears 17 times across crawled pages"
+      },
+      {
+        "rank": 50,
+        "keyword": "learn",
+        "intent": "INFO",
+        "whyRelevant": "Extracted from target/competitor pages",
+        "sourceEvidence": {
+          "page": "https://joinsuperset.com/",
+          "snippet": "lacement success rate.\n\nFor Universities\nSTUDENTS\nLearn, prepare & apply to jobs\n\nDiscover new opportunities, learn and practice on the go, prepare be"
+        },
+        "relevanceScore": 0.8,
+        "opportunityScore": 80,
+        "opportunityNote": "Appears 16 times across crawled pages"
+      }
+    ]
+  },
+  "analysis": {
+    "overlapKeywords": [],
+    "gapKeywords": [],
+    "competitorRanking": []
+  }
+}
