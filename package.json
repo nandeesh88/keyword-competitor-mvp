@@ -1,0 +1,37 @@
+{
+  "name": "keyword-competitor-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.10.0",
+    "groq-sdk": "^0.3.3",
+    "next": "14.1.0",
+    "playwright": "^1.42.0",
+    "puppeteer": "^22.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.6.7",
+    "natural": "^6.10.4",
+    "compromise": "^14.13.0",
+    "node-fetch": "^3.3.2",
+    "robots-parser": "^3.0.1",
+    "pdfkit": "^0.14.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "prisma": "^5.10.0",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: keyword_mvp_db
+    environment:
+      # Source Postgres credentials from environment to avoid committing secrets
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: keyword_mvp_app
+    ports:
+      - "3000:3000"
+    environment:
+      # Provide DATABASE_URL via environment or .env file to avoid committing secrets
+      DATABASE_URL: ${DATABASE_URL}
+      GOOGLE_CSE_API_KEY: ${GOOGLE_CSE_API_KEY}
+      GOOGLE_CSE_CX: ${GOOGLE_CSE_CX}
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      REPORTS_DIR: /app/reports
+    volumes:
+      - ./reports:/app/reports
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

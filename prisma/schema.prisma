@@ -1,0 +1,84 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model AnalysisJob {
+  id            String   @id @default(cuid())
+  targetUrl     String
+  status        String   @default("pending") // pending | running | done | error
+  errorMessage  String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  crawledPages  CrawledPage[]
+  competitors   Competitor[]
+  keywords      Keyword[]
+  report        Report?
+}
+
+model CrawledPage {
+  id          String   @id @default(cuid())
+  jobId       String
+  url         String
+  title       String?
+  description String?
+  h1          String?
+  h2s         String[]
+  heroCopy    String?
+  bodyText    String?
+  isTarget    Boolean  @default(true)
+  domain      String?
+  createdAt   DateTime @default(now())
+
+  job         AnalysisJob @relation(fields: [jobId], references: [id], onDelete: Cascade)
+}
+
+model Competitor {
+  id              String   @id @default(cuid())
+  jobId           String
+  domain          String
+  frequency       Int      @default(0)
+  avgPosition     Float    @default(0)
+  classification  String?  // DIRECT | ADJACENT | PUBLISHER | MARKETPLACE | OTHER
+  similarityScore Float    @default(0)
+  evidence        Json     // [{query, position, url, title}]
+  createdAt       DateTime @default(now())
+
+  job             AnalysisJob @relation(fields: [jobId], references: [id], onDelete: Cascade)
+}
+
+model Keyword {
+  id              String   @id @default(cuid())
+  jobId           String
+  keyword         String
+  intent          String   // INFO | COMMERCIAL | TRANSACTIONAL | COMPARISON
+  whyRelevant     String?
+  sourceEvidence  Json     // {page, snippet}
+  relevanceScore  Float    @default(0)
+  opportunityScore Float   @default(0)
+  opportunityNote String?
+  isOverlap       Boolean  @default(false)
+  isGap           Boolean  @default(false)
+  competitorCount Int      @default(0)
+  rank            Int?
+  createdAt       DateTime @default(now())
+
+  job             AnalysisJob @relation(fields: [jobId], references: [id], onDelete: Cascade)
+}
+
+model Report {
+  id          String   @id @default(cuid())
+  jobId       String   @unique
+  jsonPath    String?
+  pdfPath     String?
+  summary     Json?
+  createdAt   DateTime @default(now())
+
+  job         AnalysisJob @relation(fields: [jobId], references: [id], onDelete: Cascade)
+}
