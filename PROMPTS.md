@@ -1,7 +1,7 @@
 # PROMPTS.md — AI Prompts Used in This Project
 
 > This file documents all major prompts used during development, as required by the assignment.
-> Tool used: **Claude (claude.ai)** for full-stack code generation.
+> Tools used: **GitHub Copilot** (inline code completion), **OpenAI Codex** (function-level generation), and **Claude** (architecture, complex logic, full-stack generation).
 
 ---
 
@@ -32,7 +32,7 @@ Design the full project structure and key modules needed.
 
 **Used for:** Database schema design for jobs, pages, competitors, keywords, reports.
 
-**Tool:** Claude
+**Tool:** GitHub Copilot
 
 **Prompt:**
 ```
@@ -40,7 +40,7 @@ Design a Prisma schema for a keyword/competitor analysis tool with these models:
 - AnalysisJob (id, targetUrl, status, errorMessage, timestamps)
 - CrawledPage (jobId, url, title, description, h1, h2s, heroCopy, bodyText, isTarget, domain)
 - Competitor (jobId, domain, frequency, avgPosition, classification, similarityScore, evidence JSON)
-- Keyword (jobId, keyword, intent, whyRelevant, sourceEvidence, relevanceScore, opportunityScore, 
+- Keyword (jobId, keyword, intent, whyRelevant, sourceEvidence, relevanceScore, opportunityScore,
   opportunityNote, isOverlap, isGap, competitorCount, rank)
 - Report (jobId, jsonPath, pdfPath, summary)
 Using PostgreSQL.
@@ -52,7 +52,7 @@ Using PostgreSQL.
 
 **Used for:** Building the site crawler that respects robots.txt and prioritizes key pages.
 
-**Tool:** Claude
+**Tool:** GitHub Copilot
 
 **Prompt:**
 ```
@@ -71,7 +71,7 @@ Write a TypeScript Playwright crawler that:
 
 **Used for:** Building the Google Custom Search integration and competitor ranking logic.
 
-**Tool:** Claude
+**Tool:** OpenAI Codex
 
 **Prompt:**
 ```
@@ -79,7 +79,7 @@ Write a TypeScript module for competitor discovery:
 1. Generate 6-10 SERP queries from a site's title, H1, description, domain
    (e.g. "{service} software", "{service} alternatives", "best {service}")
 2. Search Google Custom Search API for each query (axios GET)
-3. Extract domains from results, filter out: wikipedia, reddit, youtube, facebook, 
+3. Extract domains from results, filter out: wikipedia, reddit, youtube, facebook,
    twitter, linkedin, amazon, g2, capterra, medium, github, stackoverflow, etc.
 4. Rank remaining domains by frequency across queries, avg position as tiebreaker
 5. Return top 10 with evidence: [{query, position, url, title}]
@@ -91,7 +91,7 @@ Write a TypeScript module for competitor discovery:
 
 **Used for:** Extracting candidate keywords from crawled pages using NLP techniques.
 
-**Tool:** Claude
+**Tool:** OpenAI Codex
 
 **Prompt:**
 ```
@@ -134,13 +134,13 @@ Also detect intent: INFO/COMMERCIAL/TRANSACTIONAL/COMPARISON using keyword heuri
 
 **Used for:** Classifying each competitor as DIRECT/ADJACENT/PUBLISHER/MARKETPLACE/OTHER.
 
-**Tool:** Claude
+**Tool:** GitHub Copilot
 
 **Prompt:**
 ```
 Write a TypeScript function using Groq API to classify a competitor domain as:
 DIRECT - same product, same audience
-ADJACENT - related space, overlapping audience  
+ADJACENT - related space, overlapping audience
 PUBLISHER - media/blog/review site
 MARKETPLACE - marketplace or directory
 OTHER - unrelated
@@ -155,12 +155,12 @@ Return only the classification word. Temperature 0 for determinism.
 
 **Used for:** Computing keyword overlap and gaps between target and competitors.
 
-**Tool:** Claude
+**Tool:** OpenAI Codex
 
 **Prompt:**
 ```
 Write a TypeScript function for gap/overlap analysis:
-Input: 
+Input:
 - targetKeywords: string[] (all keywords found on target site)
 - competitorKeywordMap: Map<domain, keywords[]>
 
@@ -177,7 +177,7 @@ Return both arrays with keyword + competitorCount.
 
 **Used for:** Generating a structured PDF report using PDFKit.
 
-**Tool:** Claude
+**Tool:** GitHub Copilot
 
 **Prompt:**
 ```
@@ -202,7 +202,7 @@ Export to a file path. Return a Promise<string>.
 
 **Prompt:**
 ```
-Build a Next.js App Router page.tsx with a dark industrial aesthetic UI for a keyword/competitor 
+Build a Next.js App Router page.tsx with a dark industrial aesthetic UI for a keyword/competitor
 analysis tool. Include:
 1. URL input form with validation
 2. Animated progress steps while job is running (polling /api/status/{jobId} every 3s)
@@ -246,7 +246,8 @@ Handle errors: catch all throws, update job status to 'error' with message.
 
 ## Notes on AI Usage
 
-- All code was generated using AI (Claude) as required by the assignment
-- Prompts were iteratively refined based on output quality
+- **GitHub Copilot** was used for inline code completion, schema design, and boilerplate-heavy modules (crawler, PDF, classifier, gap analysis)
+- **OpenAI Codex** was used for function-level generation of self-contained modules (SERP discovery, keyword extraction, overlap analysis)
+- **Claude** was used for system architecture decisions, complex orchestration logic, full-stack UI generation, and iterative debugging
 - Business logic (competitor filtering rules, intent heuristics, scoring weights) was designed manually and encoded into prompts
 - No AI-invented keyword lists are used — all keywords come from actual crawled content
