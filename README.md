@@ -1,4 +1,4 @@
-# 🎯 KeywordSpy — Keyword + Competitor Discovery MVP
+#  KeywordSpy — Keyword + Competitor Discovery MVP
 
 > AI-powered SEO tool that crawls a website, discovers competitors via SERP data, mines business-relevant keywords, and outputs a structured JSON + PDF report.
 
@@ -16,6 +16,8 @@
 | Containerization | Docker + docker-compose |
 | PDF | PDFKit |
 
+## Demo video-https://drive.google.com/file/d/1ehxt8uYfzRTfH4Gdous-FZ8082E6xtC5/view?usp=drive_link
+
 ---
 
 ## Prerequisites
@@ -31,7 +33,7 @@
 ### 1. Clone + configure
 
 ```bash
-git clone https://github.com/your-username/keyword-competitor-mvp
+git clone https://github.com/nandeesh88/keyword-competitor-mvp
 cd keyword-competitor-mvp
 cp .env.example .env
 ```
